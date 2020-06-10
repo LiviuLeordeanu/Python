@@ -72,12 +72,12 @@ print('After change:', A)
 
 # Split the string, default is by space
 
-'hard rock'.split()
+print('hard rock'.split())
 
 
 # Split the string by comma
 
-'A,B,C,D'.split(',')
+print('A,B,C,D'.split(','))
 
 
 # Copy (copy by reference) the list A
@@ -98,7 +98,7 @@ print('B[0]:', B[0])
 # Clone (clone by value) the list A
 
 B = A[:]
-B
+print(B)
 
 
 #Now change A, B will not change:
