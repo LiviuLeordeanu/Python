@@ -107,9 +107,6 @@ while(Rating >= 6):
 
 #Write a while loop to copy the strings 'orange' of the list squares to the list new_squares.
 # Stop and exit the loop if the value on the list is not 'orange'
-
-# Write your code below and press Shift+Enter to execute
-
 squares = ['orange', 'orange', 'purple', 'blue ', 'orange']
 new_squares = []
 i = 0

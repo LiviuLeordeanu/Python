@@ -134,7 +134,7 @@ else:
 
 # Condition statement example
 
-album_year = 1982
+album_year = 1981
 
 if not (album_year == '1984'):
     print ("Album year is not 1984")
