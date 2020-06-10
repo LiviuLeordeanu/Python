@@ -136,7 +136,7 @@ print(genres_tuple[0:2])
 #Find the first index of "disco"
 print(genres_tuple.index('disco'))
 
-#Generate a sorted List from the Tuple C_tuple=(-5, 10, -3):
-C_tuple=(-5,10,-3)
+#Generate a sorted List from the Tuple C_tuple=(-5, 11, -3):
+C_tuple=(-5,11,-3)
 C_list=sorted(C_tuple)
 print(C_list)

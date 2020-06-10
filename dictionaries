@@ -60,9 +60,9 @@ print('The Bodyguard' in release_year_dict)
 
 soundtrack_dic = {"The Bodyguard":"1992", "Saturday Night Fever":"1977"}
 print(soundtrack_dic)
-#a) In the dictionary soundtrack_dict what are the keys ?
+#a) In the dictionary soundtrack_dict what are the keys?
 print(soundtrack_dic.keys())
-#b) In the dictionary soundtrack_dict what are the values ?
+#b) In the dictionary soundtrack_dict what are the values?
 print(soundtrack_dic.values())
 
 
