@@ -1,0 +1,116 @@
+# Use quotation marks for defining string
+print("Michael Jackson")
+
+
+# Use single quotation marks for defining string
+
+print('Michael Jackson')
+
+
+# Digitals and spaces in string
+
+print('1 2 3 4 5 6 ')
+
+
+
+# Special characters in string
+
+print('@#2_#]&*^%$')
+
+
+# Print the string
+
+print("hello!")
+
+
+# Assign string to variable
+
+Name = "Michael Jackson"
+print(Name)
+
+
+# Print the first element in the string
+
+print(Name[0])
+
+
+# Print the element on index 6 in the string
+
+print(Name[6])
+
+
+# Print the element on the 13th index in the string
+
+print(Name[13]) #o
+
+
+# Print the last element in the string
+
+print(Name[-1]) #n
+
+
+# Print the first element in the string
+
+print(Name[-15]) #M
+
+
+# Find the length of string
+
+print(len("Michael Jackson")) #15
+
+
+# Take the slice on variable Name with only index 0 to index 3
+
+print(Name[0:4])
+
+
+# Take the slice on variable Name with only index 8 to index 11
+
+print(Name[8:12])
+
+
+# Get every second element. The elments on index 1, 3, 5 ...
+
+print(Name[::2])
+
+
+# Get every second element in the range from index 0 to index 4
+
+print(Name[0:5:2]) #'Mca'
+
+
+# Concatenate two strings
+
+Statement = Name + "is the best"
+print(Statement)
+
+
+# Print the string for 3 times
+
+print(3 * "Michael Jackson")
+
+# Concatenate strings
+
+Name = "Michael Jackson"
+Name = Name + " is the best"
+print(Name)
+
+
+# New line escape sequence
+
+print(" Michael Jackson \n is the best" )
+
+
+# Tab escape sequence
+
+print(" Michael Jackson \t is the best" )
+
+
+# Include back slash in string
+
+print(" Michael Jackson \\ is the best" )
+
+
+# r will tell python that string will be display as raw string
+
+print(r" Michael Jackson \ is the best" )
